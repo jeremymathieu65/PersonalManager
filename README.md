@@ -18,6 +18,10 @@ You can start editing the page by modifying `pages/index.js`. The page auto-upda
 
 The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
 
+## Purpose of Application
+
+The application designed is a personal manager/assistant that allows to users to maintain their own personal To-Do List and event scheduler. Currently, the entirety of data processing and storage is done on the client-side using a combination of contexts and JSON. However, work is in progress for adding a dedicated data layer to the application.
+
 ## Learn More
 
 To learn more about Next.js, take a look at the following resources:
