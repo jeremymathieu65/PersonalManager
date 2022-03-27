@@ -1,0 +1,56 @@
+.form-wrapper {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.formContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.formItem {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding: 25px;
+}
+
+.formLabel, .formInput {
+    font-family: 'Poppins';
+    font-size: 20px;
+    font-weight: bold;
+    padding: 15px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 50%;
+}
+
+.formInput {
+    font-size: 15px;
+    border: none;
+    border-radius: 15px;
+    background-color: rgb(171, 171, 171)
+}
+
+.formSubmit {
+    width: 200px;
+    padding: 10px;
+    background-color: grey;
+    color: white;
+    font-family: 'Poppins';
+    font-size: 20px;
+    border-radius: 15px;
+    border: none;
+    box-shadow: none;
+}
+.formSubmit:hover {
+    background-color: black;;
+}

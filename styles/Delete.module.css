@@ -1,0 +1,66 @@
+.listContainer {
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.listHeading {
+    font-family: 'Poppins';
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 25px;
+}
+
+.listItem {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+.itemContent {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    width: 80%;
+}
+
+.itemHeading, .itemSubHeading {
+    font-family: 'Poppins';
+    font-weight: bold;
+}
+
+.itemHeading {
+    font-size: 20px;
+}
+
+.itemSubHeading {
+    font-size: 15px;
+}
+
+.deleteButtonContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 20%;
+}
+
+.deleteButton {
+    border: none;
+    width: 25px;
+    height: 25px;
+    background: none;
+    color: red;
+    font-size: 45px;
+    border-radius: 6px;
+}
+.deleteButton:hover {
+    cursor: pointer;
+}
