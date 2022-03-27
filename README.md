@@ -20,7 +20,9 @@ The `pages/api` directory is mapped to `/api/*`. Files in this directory are tre
 
 ## Purpose of Application
 
-The application designed is a personal manager/assistant that allows to users to maintain their own personal To-Do List and event scheduler. Currently, the entirety of data processing and storage is done on the client-side using a combination of contexts and JSON. However, work is in progress for adding a dedicated data layer to the application.
+The application designed is a personal manager/assistant that allows users to maintain their own personal To-Do List and event scheduler. Currently, the entirety of data processing and storage is done on the client-side using a combination of contexts and JSON. However, work is in progress for adding a dedicated data layer to the application.
+
+Apart from adding a data layer, work is also in progress to integrate a customaziable calendar, as well as a social media dashboard into the application.
 
 ## Learn More
 
